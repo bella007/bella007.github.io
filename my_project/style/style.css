@@ -84,47 +84,25 @@ max-width: 100%;
 height: 65rem;
 background-size: cover;
 padding: 4rem;
-/* background-color: #cfcfcf; */
-/* IE9, iOS 3.2+ */
-/* background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjYzNjM2MzIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNkNGQ0ZDQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjEiLz48c3RvcCBzdG9wLWNvbG9yPSIjYzNjM2MzIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC4yNzEiLz48c3RvcCBzdG9wLWNvbG9yPSIjYzNjM2MzIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC41NjYwMDAwMDAwMDAwMDAxIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2VmZWZlZiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(195, 195, 195)),color-stop(0.1, rgb(212, 212, 212)),color-stop(0.271, rgb(195, 195, 195)),color-stop(0.566, rgb(195, 195, 195)),color-stop(1, rgb(239, 239, 239))); */
-/* Android 2.3 */
-/* background-image: -webkit-repeating-linear-gradient(top,rgb(195, 195, 195) 0%,rgb(212, 212, 212) 10%,rgb(195, 195, 195) 27.1%,rgb(195, 195, 195) 56.6%,rgb(239, 239, 239) 100%); */
-/* IE10+ */
-/* background-image: repeating-linear-gradient(to bottom,rgb(195, 195, 195) 0%,rgb(212, 212, 212) 10%,rgb(195, 195, 195) 27.1%,rgb(195, 195, 195) 56.6%,rgb(239, 239, 239) 100%);
-background-image: -ms-repeating-linear-gradient(top,rgb(195, 195, 195) 0%,rgb(212, 212, 212) 10%,rgb(195, 195, 195) 27.1%,rgb(195, 195, 195) 56.6%,rgb(239, 239, 239) 100%); */
 }
 
 .main-about {
 background: url("../images/romb.jpg");
 max-width: 100%;
-/* height: 70rem; */
 background-size: cover;
-/* position: relative; */
 padding: 7rem 2rem;
 }
 .main-skills {
-    /* background-color: whitesmoke; */
-    background-color: #cfcfcf; 
-    /* IE9, iOS 3.2+ */
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjYzNjM2MzIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNkNGQ0ZDQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjEiLz48c3RvcCBzdG9wLWNvbG9yPSIjYzNjM2MzIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC4yNzEiLz48c3RvcCBzdG9wLWNvbG9yPSIjYzNjM2MzIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC41NjYwMDAwMDAwMDAwMDAxIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2VmZWZlZiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(195, 195, 195)),color-stop(0.1, rgb(212, 212, 212)),color-stop(0.271, rgb(195, 195, 195)),color-stop(0.566, rgb(195, 195, 195)),color-stop(1, rgb(239, 239, 239)));
-    /* Android 2.3 */
-    background-image: -webkit-repeating-linear-gradient(top,rgb(195, 195, 195) 0%,rgb(212, 212, 212) 10%,rgb(195, 195, 195) 27.1%,rgb(195, 195, 195) 56.6%,rgb(239, 239, 239) 100%);
-    /* IE10+ */
-    background-image: repeating-linear-gradient(to bottom,rgb(195, 195, 195) 0%,rgb(212, 212, 212) 10%,rgb(195, 195, 195) 27.1%,rgb(195, 195, 195) 56.6%,rgb(239, 239, 239) 100%);
-    background-image: -ms-repeating-linear-gradient(top,rgb(195, 195, 195) 0%,rgb(212, 212, 212) 10%,rgb(195, 195, 195) 27.1%,rgb(195, 195, 195) 56.6%,rgb(239, 239, 239) 100%);
-    
     max-width: 100%;
     height: 60rem;
     padding: 3rem 3rem;
 }
 .main-lower {
-    background: url("../images/reverse_romb.jpg");
-    background-size: cover;
-    max-width: 100%;
-    height: 61.5rem;
-    padding: 3rem 3rem;
+background: url("../images/reverse_romb.jpg");
+background-size: cover;
+max-width: 100%;
+height: 61.5rem;
+padding: 3rem 3rem;
 }
 
 
@@ -143,65 +121,35 @@ padding: 7rem 2rem;
     src: local('RobotoSlab'), url('../fonts/RobotoSlab.ttf');
     font-weight: 300;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .portfolio-wrapper{
-    /* //margin: 50px 0; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
   }
-  .img-wrapper{
-  
-    overflow: hidden;
-    width: 400px;
-    height: 220px;
-    /* //min-height: 200px; */
-    opacity: 0.7;
-    /* //background: rgba(0,0,0,.5); */
-    margin-bottom: 70px;
-    
-  }
-  .img-wrapper:hover{
-    opacity: 1;
-  }
-  .img-block{
-    /* //position: absolute; */
-    z-index: 3;
-    display: block;
-    cursor: pointer;
-    width: 400px;
-    min-height: 200px;
-    -moz-transition: all 0.9s ease-out;
-    -o-transition: all 0.9s ease-out;
-    -webkit-transition: all 0.9s ease-out;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
-
-      } 
+.img-wrapper{
+  overflow: hidden;
+  width: 400px;
+  height: 220px;
+  opacity: 0.7;
+  margin-bottom: 70px;
+}
+.img-wrapper:hover{
+  opacity: 1;
+}
+.img-block{
+z-index: 3;
+display: block;
+cursor: pointer;
+width: 400px;
+min-height: 200px;
+-moz-transition: all 0.9s ease-out;
+-o-transition: all 0.9s ease-out;
+-webkit-transition: all 0.9s ease-out;
+background-repeat: no-repeat;
+position: relative;
+overflow: hidden;
+} 
 .img-port{
     width: 400px;
   }
@@ -235,32 +183,7 @@ padding: 7rem 2rem;
     font-family: 'Josefin Slab', serif;
   
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    
   .about-title {
     text-align: center;
     font-size: 5rem;
@@ -269,19 +192,17 @@ padding: 7rem 2rem;
 }
 
 .imgg {
-    /* background:url("../images/cloud20.png"); */
     background-size: cover;
     max-width: 100%;
     width:500px;
     height: 500px;
     position: absolute;
 }
-/* <img src="https://png.pngtree.com/thumb_back/fw800/back_pic/02/50/64/50577e1f9b187b0.jpg" alt="Тенденции схеме фон, Справочная модель, текстуры текстура, черный текстуры, Изображение на заднем плане"> */
+
 .about-me {
     font-size: 2rem;
     color: rgb(219, 210, 210);
     font-family: 'RobotoSlab-Thin', serif;
-    /* float: left; */
     width: 40%;
     margin-left: 50px;
     margin-right: 165px;
@@ -293,9 +214,6 @@ padding: 7rem 2rem;
   max-width:40%;
   display:inline-block;
     position: absolute;
-    /* background:url("../images/cloud10.png");
-    background-size: cover; */
-
 }
 
 .skills-title{
@@ -435,5 +353,3 @@ padding: 7rem 2rem;
           background-image: -ms-radial-gradient(0% 0%,#ff7620,#f42f5e);
         }
       
-  
-  
