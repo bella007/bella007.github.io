@@ -1,0 +1,26 @@
+$blue: #006ec5;
+$grey: #585858;
+$lightblue:#00b3e3;
+
+html, body {
+    font-family: $regular;
+    font-size:16px;
+    line-height: 1.125;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    color: #222;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+#app {
+    background:linear-gradient(to bottom,#fff 1%,#cfd1cf 100%);
+}

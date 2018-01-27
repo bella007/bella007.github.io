@@ -1,0 +1,54 @@
+.book-view-wrapper {
+    background-color: #fff; 
+    span {
+        font-weight: bold;
+    } 
+    
+    .book-image {
+        width: 340px;
+        height: 495px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; 
+        .fa {
+            color: red;
+            margin: 15px;
+           
+         }
+        
+    }
+    .desc {
+        float: left;
+        margin-top: 20px;
+    }    
+    .cost{
+        button, p {
+            display: inline-block;
+        }
+    }
+    .star {
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+    }
+    .btn-bookView {
+        margin: 0 0 0 20px;
+        background-color: #007aff;
+        color: #fff;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .about {
+    margin-left: 35px;
+        .fa {
+            color: rgb(255, 213, 23);
+            margin: 5px 10px 5px 0;
+        }
+    }
+
+
+    
+}
