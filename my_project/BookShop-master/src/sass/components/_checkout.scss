@@ -1,0 +1,24 @@
+.checkout-wrapper {
+    min-height: calc(81vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;   
+    .image {
+        width: 80px;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; 
+    }
+    button {
+        
+        margin: 0 0 0 20px;
+        background-color: #007aff;
+        color: #fff;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+    }   
+    
