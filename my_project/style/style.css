@@ -28,15 +28,16 @@ main {
  }
 .main-description {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     color: black;
-    font-family: 'Champignon Script', serif;
+    font-family: 'ProximaNova-RegularIt', serif;
 
 }
 
-/*Social pages*/
+
+
 .fb {
-    background: url("../images/icons8-Facebook_Filled-50.png");
+    background: url("../images/icon/facebook.svg");
     width: 2rem;
     height: 2rem;
     background-size: cover;
@@ -45,7 +46,7 @@ main {
     border-radius: 0.6rem;
 }
 .linkid {
-    background: url("../images/icons8-ЛинкедИн_Filled-50.png");
+    background: url("../images/icon/linkedin.svg");
     width: 2rem;
     height: 2rem;
     background-size: cover;
@@ -69,7 +70,7 @@ main {
     height: 2rem;
     clear: both;
     margin-top: 12rem;
-    margin-left: 43%;
+    margin-left: 50rem  ;
 }
 .fb:hover {  box-shadow: 0 0 0.2rem 0.2rem #4267b2;  }
 .linkid:hover {  box-shadow: 0 0 0.2rem 0.2rem #0073b1;  }
@@ -144,18 +145,19 @@ padding: 3rem 3rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left:50px;
   
   }
   .img-wrapper{
   
     overflow: hidden;
     width: 400px;
-    height: 220px;
+    /* height: 220px; */
     /* //min-height: 200px; */
     opacity: 0.7;
     /* //background: rgba(0,0,0,.5); */
     margin-bottom: 70px;
-    
+    border-radius: 40px;
   }
   .img-wrapper:hover{
     opacity: 1;
@@ -177,6 +179,7 @@ padding: 3rem 3rem;
       } 
 .img-port{
     width: 400px;
+    height:200px;
   }
   .img-block:hover{
     opacity: 1;
@@ -211,15 +214,32 @@ padding: 3rem 3rem;
   
   
     
-  
-  
-  
-  .about-title {
-    text-align: center;
-    font-size: 5rem;
-    color:black;
-    font-family: 'RobotoSlab', san-serif;   
+  @font-face {
+    font-family: 'ProximaNova-Regular';
+    src: local('ProximaNova-Regular'), url('../fonts/ProximaNova-Regular.ttf');
+    font-weight: 300;
 }
+@font-face {
+  font-family: 'ProximaNova-RegularIt';
+  src: local('ProximaNova-RegularIt'), url('../fonts/ProximaNova-RegularIt.ttf');
+  font-weight: 300;
+}
+
+  .about-title {
+    /* text-align: center; */
+    font-size: 5rem;
+    color: #17fdf4;
+    font-family: 'RobotoSlab-Thin', san-serif;
+    margin-left: 50px;  
+}
+
+.portfolio-title {
+  /* text-align: center; */
+  font-size: 5rem;
+  color: #e3e652db;
+  font-family: 'RobotoSlab-Thin', san-serif;
+  margin-left: 50px;
+} 
 
 .about-me {
     font-size: 2rem;
@@ -296,8 +316,11 @@ padding: 3rem 3rem;
 }
  
  .skills-heading{
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   width: 55%;
+  font-size: 5rem;
+  color:#22fd21;
+  font-family: 'RobotoSlab-Thin', san-serif;
   }
  
  .skills img {
@@ -327,6 +350,8 @@ padding: 3rem 3rem;
  
  .skills-right img{
   padding-left: 110px;
+  width:100px;
+  height: auto;
 
  }
  
