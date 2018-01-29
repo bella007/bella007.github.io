@@ -1,264 +1,150 @@
 html, p, body, div, ul, li, table, th, tr, td {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 12px;
-    list-style-type: none;
-    border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  list-style-type: none;
+  border-collapse: collapse;
 }
+
 body {
-    margin: 0 auto;
-    background: gray;
-    min-width: 800px;
-    max-width: 1500px;
-    width: auto;
+  margin: 0 auto;
+  background: gray;
+  min-width: 800px;
+  max-width: 1500px;
+  width: auto;
 }
+
 main {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /*Name + description*/
 
 .main-name {
-    text-align: center;
-    font-size: 12rem;
-    color: black;
-    font-family: 'Champignon Script', serif;
-    margin-top: 11rem;
- }
+  text-align: center;
+  font-size: 12rem;
+  color: black;
+  font-family: 'Champignon Script', serif;
+  margin-top: 11rem;
+}
+
 .main-description {
-    text-align: center;
-    font-size: 3rem;
-    color: black;
-    font-family: 'ProximaNova-RegularIt', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  font-family: 'ProximaNova-RegularIt', serif;
 
 }
 
-
+/*Social links*/
+.main-links {
+  width: 14rem;
+  height: 2rem;
+  clear: both;
+  margin-top: 12rem;
+  margin-left: 47%;
+}
 
 .fb {
-    background: url("../images/icon/facebook.svg");
-    width: 2rem;
-    height: 2rem;
-    background-size: cover;
-    float: left;
-    margin-right: 1rem;
-    border-radius: 0.6rem;
-}
-.linkid {
-    background: url("../images/icon/linkedin.svg");
-    width: 2rem;
-    height: 2rem;
-    background-size: cover;
-    float: left;
-    margin-right: 1rem;
-    border-radius: 0.6rem;
-}
-.github {
-    background: url("../images/icons8-GitHub Filled-50-2.png");
-    width: 2rem;
-    height: 2rem;
-    background-size: cover;
-    float: left;
-    margin-right: 1rem;
-    border-radius: 0.6rem;
+  background: url("../images/icon/facebook.svg");
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 0.6rem;
 }
 
-
-.main-links {
-    width: 14rem;
-    height: 2rem;
-    clear: both;
-    margin-top: 12rem;
-    margin-left: 50rem  ;
+.linkedin {
+  background: url("../images/icon/linkedin.svg");
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 0.6rem;
 }
-.fb:hover {  box-shadow: 0 0 0.2rem 0.2rem #4267b2;  }
-.linkid:hover {  box-shadow: 0 0 0.2rem 0.2rem #0073b1;  }
-.github:hover {  box-shadow: 0 0 0.2rem 0.2rem #24292e;  }
 
+.git {
+  background: url("../images/icons8-GitHub Filled-50-2.png");
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 0.6rem;
+}
+
+.fb:hover {
+  box-shadow: 0 0 0.2rem 0.2rem #4267b2;
+}
+
+.linkedin:hover {
+  box-shadow: 0 0 0.2rem 0.2rem #0073b1;
+}
+
+.git:hover {
+  box-shadow: 0 0 0.2rem 0.2rem #24292e;
+}
 
 /*Main blocks*/
 
 .main-upper {
-background: url("../images/city.jpg");
-max-width: 100%;
-height: 65rem;
-background-size: cover;
-padding: 4rem;
+  background: url("../images/city.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: 65rem;
+  padding: 4rem;
 }
 
 .main-about {
-background: url("../images/romb.jpg");
-max-width: 100%;
-height: 58rem;
-background-size: cover;
-/* position: relative; */
-padding: 7rem 2rem;
+  background: url("../images/romb.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: 58rem;
+  padding: 7rem 2rem;
 }
+
 .main-portfolio {
-    background: url("../images/romb1.jpg");
-    background-size: cover;
-    max-width: 100%;
-    height: 58rem;
-    padding: 3rem 3rem;
+  background: url("../images/romb1.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: 58rem;
+  padding: 3rem 3rem;
 }
+
 .main-skills {
-  background: url("../images/romb2 .jpg");
-  
-background-size: cover;
-max-width: 100%;
-height: 60rem;
-padding: 3rem 3rem;
+  background: url("../images/romb2.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: 60rem;
+  padding: 3rem 3rem;
 }
 
+/*About me*/
 
-@font-face {
-    font-family: 'Champignon Script';
-    src: local('Champignon Script'), url('../fonts/Champignon Script.ttf');
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'RobotoSlab-Thin';
-    src: local('RobotoSlab-Thin'), url('../fonts/RobotoSlab-Thin.ttf');
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'RobotoSlab';
-    src: local('RobotoSlab'), url('../fonts/RobotoSlab.ttf');
-    font-weight: 300;
-}
-
-@font-face {
-  font-family: 'S';
-  src: local('S'), url('../fonts/S.otf');
-  font-weight: 300;
-}
-
-
-
-
-
-
-.portfolio-wrapper{
-    /* //margin: 50px 0; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left:50px;
-  
-  }
-  .img-wrapper{
-  
-    overflow: hidden;
-    width: 400px;
-    /* height: 220px; */
-    /* //min-height: 200px; */
-    opacity: 0.7;
-    /* //background: rgba(0,0,0,.5); */
-    margin-bottom: 70px;
-    border-radius: 40px;
-  }
-  .img-wrapper:hover{
-    opacity: 1;
-  }
-  .img-block{
-    /* //position: absolute; */
-    z-index: 3;
-    display: block;
-    cursor: pointer;
-    width: 400px;
-    min-height: 200px;
-    -moz-transition: all 0.9s ease-out;
-    -o-transition: all 0.9s ease-out;
-    -webkit-transition: all 0.9s ease-out;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
-
-      } 
-.img-port{
-    width: 400px;
-    height:200px;
-  }
-  .img-block:hover{
-    opacity: 1;
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-  .img-block:hover>.portfolio-text{
-    top: 0px;
-    min-height: 80px;
-    transition: 0.6s;
-    padding-left: 20px;
-    padding-top: 20px;
-  }
-  .portfolio-text{
-    position: absolute;
-    color: #ffffff;
-    top: -100px;
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.61);
-    height: 0px;
-    width: 100%;
-    -webkit-transition: height, top .5s ease-in-out;
-    -moz--transition: height, top .5s ease-in-out;
-    transition: height, top .5s ease-in-out;
-    padding: 10px;
-    font-family: 'Josefin Slab', serif;
-  
-  }
-  
-  
-    
-  @font-face {
-    font-family: 'ProximaNova-Regular';
-    src: local('ProximaNova-Regular'), url('../fonts/ProximaNova-Regular.ttf');
-    font-weight: 300;
-}
-@font-face {
-  font-family: 'ProximaNova-RegularIt';
-  src: local('ProximaNova-RegularIt'), url('../fonts/ProximaNova-RegularIt.ttf');
-  font-weight: 300;
-}
-
-  .about-title {
-    /* text-align: center; */
-    font-size: 5rem;
-    color: #17fdf4;
-    font-family: 'RobotoSlab-Thin', san-serif;
-    margin-left: 50px;  
-}
-
-.portfolio-title {
-  /* text-align: center; */
+.about-title {
+  color: #17fdf4;
+  font-family: 'RobotoSlab-Thin', sans-serif;
   font-size: 5rem;
-  color: #e3e652db;
-  font-family: 'RobotoSlab-Thin', san-serif;
   margin-left: 50px;
-} 
+}
 
 .about-me {
-    font-size: 2rem;
-    color: #f6f6f6;
-    font-family: 'RobotoSlab-Thin', serif;
-    /* float: left; */
-    width: 40%;
-    margin-left: 50px;
-    margin-right: 165px;
-    display:inline-block;
-    
+  font-size: 2rem;
+  color: #f6f6f6;
+  font-family: 'RobotoSlab-Thin', serif;
+  width: 40%;
+  margin-left: 50px;
+  margin-right: 165px;
+  display: inline-block;
+
 }
 
+/* Download CV  */
 
-      
-  /*resumeee  */
-
-
-.resume {
+.cv {
   text-align: center;
   padding-top: 59px;
   padding-bottom: 100px;
@@ -266,16 +152,15 @@ padding: 3rem 3rem;
   display: inline-block;
   position: absolute;
   margin-left: 65px;
-   }
+}
 
-.resume-text {
+.cv-text {
   color: white;
   font-family: 'S', sans-serif;
   font-size: 1.5rem;
 }
 
-
-.resume a {
+.cv a {
   display: inline-block;
   margin-top: 20px;
   padding: 20px 35px;
@@ -287,47 +172,114 @@ padding: 3rem 3rem;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
- }
+}
 
+/*Portfolio*/
 
+.portfolio-title {
+  font-size: 5rem;
+  color: #e3e652db;
+  font-family: 'RobotoSlab-Thin', sans-serif;
+  margin-left: 50px;
+}
 
+.portfolio-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 50px;
+}
 
+.project-wrapper {
+  overflow: hidden;
+  width: 400px;
+  /* height: 220px; */
+  /* min-height: 200px; */
+  opacity: 0.7;
+  /* background: rgba(0,0,0,.5); */
+  margin-bottom: 70px;
+  border-radius: 40px;
+}
 
+.project-wrapper:hover {
+  opacity: 1;
+}
 
+.img-block {
+  /* //position: absolute; */
+  z-index: 3;
+  display: block;
+  cursor: pointer;
+  width: 400px;
+  min-height: 200px;
+  -moz-transition: all 0.9s ease-out;
+  -o-transition: all 0.9s ease-out;
+  -webkit-transition: all 0.9s ease-out;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
 
+}
 
+.portfolio-img {
+  width: 400px;
+  height: 200px;
+}
 
+.img-block:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
 
- .my-skills{
-   padding-top: 50px;
-   padding-bottom: 100px; }
- 
+.img-block:hover > .portfolio-text {
+  top: 0;
+  min-height: 80px;
+  transition: 0.6s;
+  padding-left: 20px;
+  padding-top: 20px;
+}
 
-.skills{
+.portfolio-text {
+  position: absolute;
+  color: #ffffff;
+  top: -100px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.61);
+  height: 0;
+  width: 100%;
+  -webkit-transition: height, top .5s ease-in-out;
+  -moz--transition: height, top .5s ease-in-out;
+  transition: height, top .5s ease-in-out;
+  padding: 10px;
+  font-family: 'Josefin Slab', serif;
 
+}
+
+/*Skills*/
+
+.skills-left {
   font-size: 2rem;
   color: #f6f6f6;
   font-family: 'RobotoSlab-Thin', serif;
   margin-left: 50px;
-  /* margin-top: 165px; */
   display: inline-block;
   float: left;
   width: 39%;
 }
- 
- .skills-heading{
-  /* text-transform: uppercase; */
+
+.skills-title {
   width: 55%;
   font-size: 5rem;
-  color:#22fd21;
-  font-family: 'RobotoSlab-Thin', san-serif;
-  }
- 
- .skills img {
-   background-repeat: no-repeat;
- }
+  color: #22fd21;
+  font-family: 'RobotoSlab-Thin', sans-serif;
+}
 
- .skills-text{
+.skills-text {
   font-size: 2rem;
   color: #f6f6f6;
   font-family: 'RobotoSlab-Thin', serif;
@@ -336,9 +288,17 @@ padding: 3rem 3rem;
   margin-left: 52px; */
   padding: 0;
 }
- 
- 
- .skills-right{
+
+.my-skills {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.skills img {
+  background-repeat: no-repeat;
+}
+
+.skills-right {
   /* float: right; */
   display: inline-block;
   max-width: 58%;
@@ -346,18 +306,41 @@ padding: 3rem 3rem;
   margin-top: 100px;
   margin-right: -57px;
 }
- 
- 
- .skills-right img{
+
+.skills-right img {
   padding-left: 110px;
-  width:100px;
+  width: 100px;
   height: auto;
 
- }
- 
- .my-skills__item {
-   margin-bottom: 0;
-   color: #566366;
-   text-transform: uppercase;
-   font-weight: bold; }
-  
+}
+
+/* Connecting fonts */
+@font-face {
+  font-family: 'Champignon Script';
+  src: local('Champignon Script'), url('../fonts/Champignon Script.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'RobotoSlab-Thin';
+  src: local('RobotoSlab-Thin'), url('../fonts/RobotoSlab-Thin.ttf');
+  font-weight: 300;
+}
+/*TODO: decide what to do with this font */
+@font-face {
+  font-family: 'RobotoSlab';
+  src: local('RobotoSlab'), url('../fonts/RobotoSlab.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'S';
+  src: local('S'), url('../fonts/S.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'ProximaNova-RegularIt';
+  src: local('ProximaNova-RegularIt'), url('../fonts/ProximaNova-RegularIt.ttf');
+  font-weight: 300;
+}
