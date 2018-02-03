@@ -128,7 +128,7 @@ main {
   color: #17fdf4;
   font-family: 'RobotoSlab-Thin', sans-serif;
   font-size: 5rem;
-  margin-left: 50px;
+  margin-left: 35px;
 }
 
 .about-me {
@@ -136,7 +136,7 @@ main {
   color: #f6f6f6;
   font-family: 'RobotoSlab-Thin', serif;
   width: 40%;
-  margin-left: 50px;
+  margin-left: 35px;
   margin-right: 165px;
   display: inline-block;
 
@@ -343,4 +343,97 @@ main {
   font-family: 'ProximaNova-RegularIt';
   src: local('ProximaNova-RegularIt'), url('../fonts/ProximaNova-RegularIt.ttf');
   font-weight: 300;
+}
+
+@media all and (min-width : 319px) and (max-width: 800px) {
+  body {
+
+    min-width: 423px;
+    max-width: 800px;
+  }
+
+  /*Main blocks*/
+  .main-upper {
+    background: url("../images/city.jpg") no-repeat center center;
+  }
+
+  .main-about {
+    height: 70rem;
+  }
+
+  /*first block*/
+  .main-name {
+    font-size: 9rem;
+  }
+
+  .main-description {
+    font-size: 2rem;
+  }
+
+  /*About me */
+  .about-title {
+    color: #fd1a13;
+    margin-left: 35px;
+  }
+
+  .about-me {
+    display: block;
+    font-size: 1.8rem;
+    width: 85%;
+    margin-left: 35px;
+    margin-right: 0;
+  }
+
+  .cv {
+    max-width: 100%;
+    display: block;
+    position: absolute;
+  }
+
+  /*Portfolio*/
+  .main-portfolio {
+    background: url(../images/romb1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 142rem;
+    padding: 3rem 3rem;
+  }
+  .skills-left {
+    font-size: 2rem;
+    color: #f6f6f6;
+    font-family: 'RobotoSlab-Thin', serif;
+    margin-left: 50px;
+    display: block;
+    float: left;
+    width: 93%;
+  }
+
+  .skills-title {
+    width: 76%;
+    font-size: 5rem;
+    color: #22fd21;
+    font-family: 'RobotoSlab-Thin', sans-serif;
+  }
+  .skills-right img {
+     padding-left: 0;
+    width: 63px;
+    height: auto;
+  }
+  .skills-text {
+    font-size: 1.8rem;
+    color: #f6f6f6;
+    font-family: 'RobotoSlab-Thin', serif;
+    /* float: left; */
+    padding: 0;
+  }
+  .project-wrapper {
+    overflow: hidden;
+    width: 285px;
+    /* height: 220px; */
+    /* min-height: 200px; */
+    opacity: 0.7;
+    /* background: rgba(0,0,0,.5); */
+    margin-bottom: 70px;
+    border-radius: 40px;
+  }
 }
