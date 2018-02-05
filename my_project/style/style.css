@@ -46,34 +46,28 @@ main {
   margin-left: 47%;
 }
 
-.fb {
-  background: url("../images/icon/facebook.svg");
+.fb,
+.linkedin,
+.git{
   width: 2rem;
   height: 2rem;
-  background-size: cover;
   float: left;
   margin-right: 1rem;
   border-radius: 0.6rem;
+}
+.fb {
+  background: url("../images/icon/facebook.svg");
+  background-size: cover;
 }
 
 .linkedin {
   background: url("../images/icon/linkedin.svg");
-  width: 2rem;
-  height: 2rem;
   background-size: cover;
-  float: left;
-  margin-right: 1rem;
-  border-radius: 0.6rem;
 }
 
 .git {
   background: url("../images/icons8-GitHub Filled-50-2.png");
-  width: 2rem;
-  height: 2rem;
   background-size: cover;
-  float: left;
-  margin-right: 1rem;
-  border-radius: 0.6rem;
 }
 
 .fb:hover {
