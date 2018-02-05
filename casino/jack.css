@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Digital';
+  font-style: normal;
+  font-weight: 600;
+  src: url(fonts/7fonts.ru_DS-DIGIB.TTF);
+}
+body{margin: 0}
+.wrapper {
+  margin: 0 auto;
+  width: 500px;
+  height: 450px;
+  position: relative;
+  opacity: 0.8;
+  left: 31px;
+  top: 118px;
+
+}
+.light-div{
+  width: 45px;
+  height: 45px;
+  position: absolute;
+ 
+  z-index: 2;
+  top: 155px;
+  left: 140px;
+  
+}
+.light-div:hover{
+  filter: brightness(150%);
+}
+
+.back-image{
+  width: 850px;
+  height: 900px;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  background-image: url(images/bad3.jpg);
+}
+
+#start{
+  background-image: url(images/button.png);
+  background-color: transparent;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: none;
+  position: absolute;
+  z-index: 1;
+  outline: none;
+  width: 103px;
+  height: 176px;
+  bottom: -278px;
+  right: 309px;
+}
+#start:hover{
+  filter: brightness(130%);
+}
+#start:active{
+  transform: scale(0.95);
+}
+.block {
+
+  width: 100px;
+  height: 300px;
+  margin-left: 4px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+
+}
+.image {
+  width: 100px;
+  height: 100px;
+  background-size: 100%;
+  position: absolute;
+  transition: 1s;
+}
+.cash {
+  position: absolute;
+  left: -50px;
+  top:385px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size: 28px;
+  color: yellow;
+  font-family: Digital;
+
+ 
+}
+.line {
+  border: none;
+  width: 0;
+  animation-name: showLine;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-play-state: paused;
+  position: absolute;
+  background-color: gold;
+
+}
+#lineHor1 {
+  top: 59px;
+  left: 0;
+}
+#lineHor2 {
+  top: 160px;
+  left: 0;
+}
+#lineHor3 {
+  top: 260px;
+  left: 0;
+}
+#lineDiag1 {
+  top: 150px;
+  left: 0px;
+  transform: rotate(45deg);
+}
+#lineDiag2 {
+  top: 153px;
+  left: 15px;
+  transform: rotate(135deg);
+}
+@keyframes showLine {
+  0% {width: 0;border: 0;}
+  1% {width: 0;border: 3px solid white; border-radius: 8px}
+  100% {width: 300px;border: 3px solid white; border-radius: 8px}
+}

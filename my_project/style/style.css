@@ -46,34 +46,27 @@ main {
   margin-left: 47%;
 }
 
-.fb {
-  background: url("../images/icon/facebook.svg");
+.fb,
+.linkedin,
+.git {
   width: 2rem;
   height: 2rem;
   background-size: cover;
   float: left;
   margin-right: 1rem;
   border-radius: 0.6rem;
+}
+
+.fb {
+  background: url("../images/icon/facebook.svg");
 }
 
 .linkedin {
   background: url("../images/icon/linkedin.svg");
-  width: 2rem;
-  height: 2rem;
-  background-size: cover;
-  float: left;
-  margin-right: 1rem;
-  border-radius: 0.6rem;
 }
 
 .git {
   background: url("../images/icons8-GitHub Filled-50-2.png");
-  width: 2rem;
-  height: 2rem;
-  background-size: cover;
-  float: left;
-  margin-right: 1rem;
-  border-radius: 0.6rem;
 }
 
 .fb:hover {
@@ -122,21 +115,36 @@ main {
   padding: 3rem 3rem;
 }
 
-/*About me*/
-
-.about-title {
-  color: #17fdf4;
-  font-family: 'RobotoSlab-Thin', sans-serif;
-  font-size: 5rem;
-  margin-left: 35px;
+.about-title,
+.about-me,
+.portfolio-title,
+.portfolio-row,
+.skills-left {
+  margin-left: 50px;
 }
 
+.about-title,
+.portfolio-title,
+.skills-title {
+  font-size: 5rem;
+  font-family: 'RobotoSlab-Thin', sans-serif;
+}
+
+.skills-text,
 .about-me {
   font-size: 2rem;
   color: #f6f6f6;
   font-family: 'RobotoSlab-Thin', serif;
+}
+
+/*About me*/
+
+.about-title {
+  color: #17fdf4;
+}
+
+.about-me {
   width: 40%;
-  margin-left: 35px;
   margin-right: 165px;
   display: inline-block;
 
@@ -168,19 +176,16 @@ main {
   text-decoration: none;
   text-transform: uppercase;
   border: 2px solid #00ff6c;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
 }
 
-/*Portfolio*/
+/* My works */
 
 .portfolio-title {
-  font-size: 5rem;
   color: #e3e652db;
-  font-family: 'RobotoSlab-Thin', sans-serif;
-  margin-left: 50px;
 }
 
 .portfolio-row {
@@ -188,7 +193,6 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 50px;
 }
 
 .project-wrapper {
@@ -263,10 +267,8 @@ main {
 /*Skills*/
 
 .skills-left {
-  font-size: 2rem;
   color: #f6f6f6;
   font-family: 'RobotoSlab-Thin', serif;
-  margin-left: 50px;
   display: inline-block;
   float: left;
   width: 39%;
@@ -274,15 +276,10 @@ main {
 
 .skills-title {
   width: 55%;
-  font-size: 5rem;
   color: #22fd21;
-  font-family: 'RobotoSlab-Thin', sans-serif;
 }
 
 .skills-text {
-  font-size: 2rem;
-  color: #f6f6f6;
-  font-family: 'RobotoSlab-Thin', serif;
   float: left;
   /* width: 55%;
   margin-left: 52px; */
@@ -326,12 +323,6 @@ main {
   src: local('RobotoSlab-Thin'), url('../fonts/RobotoSlab-Thin.ttf');
   font-weight: 300;
 }
-/*TODO: decide what to do with this font */
-@font-face {
-  font-family: 'RobotoSlab';
-  src: local('RobotoSlab'), url('../fonts/RobotoSlab.ttf');
-  font-weight: 300;
-}
 
 @font-face {
   font-family: 'S';
@@ -345,9 +336,8 @@ main {
   font-weight: 300;
 }
 
-@media all and (min-width : 319px) and (max-width: 800px) {
+@media all and (min-width: 319px) and (max-width: 800px) {
   body {
-
     min-width: 423px;
     max-width: 800px;
   }
@@ -359,6 +349,24 @@ main {
 
   .main-about {
     height: 70rem;
+  }
+
+  .main-skills,
+  .main-portfolio {
+    height: auto;
+  }
+
+  .about-title,
+  .about-me,
+  .portfolio-title,
+  .portfolio-row,
+  .skills-left {
+    margin-left: 35px;
+  }
+
+  .skills-text,
+  .about-me {
+    font-size: 1.8rem;
   }
 
   /*first block*/
@@ -373,14 +381,11 @@ main {
   /*About me */
   .about-title {
     color: #fd1a13;
-    margin-left: 35px;
   }
 
   .about-me {
     display: block;
-    font-size: 1.8rem;
     width: 85%;
-    margin-left: 35px;
     margin-right: 0;
   }
 
@@ -389,67 +394,35 @@ main {
     display: block;
     position: absolute;
   }
-.cv:after{
-  clear:both;
-}
-.main-links:after{
-  clear:both;
-}
-  /*Portfolio*/
-  .main-portfolio {
-    background: url(../images/romb1.jpg);
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    padding: 3rem 3rem;
-  }
-  .main-portfolio:after {
+
+  .cv:after {
     clear: both;
   }
+
+  /* My works */
+  .portfolio-row {
+    display: inline-block;
+  }
+
+  .project-wrapper {
+    width: 285px;
+    margin-bottom: 70px;
+    border-radius: 40px;
+  }
+
+  /*Skills*/
   .skills-left {
-    font-size: 2rem;
-    color: #f6f6f6;
-    font-family: 'RobotoSlab-Thin', serif;
-    margin-left: 50px;
     display: block;
-    float: left;
     width: 93%;
   }
 
   .skills-title {
     width: 76%;
-    font-size: 5rem;
-    color: #22fd21;
-    font-family: 'RobotoSlab-Thin', sans-serif;
   }
-  .skills-right img {
-     padding-left: 0;
-    width: 63px;
-    height: auto;
-  }
-  .skills-text {
-    font-size: 1.8rem;
-    color: #f6f6f6;
-    font-family: 'RobotoSlab-Thin', serif;
-    /* float: left; */
-    padding: 0;
-  }
-  .project-wrapper {
-    overflow: hidden;
-    width: 285px;
-     /*height: 220px;*/
-    /* min-height: 200px; */
-    opacity: 0.7;
-    /* background: rgba(0,0,0,.5); */
-    margin-bottom: 70px;
-    border-radius: 40px;
-  }
-  .portfolio-row {
-    display: inline-block;
 
-  }
-  .main-skills {
-    height:auto;
+  .skills-right img {
+    padding-left: 0;
+    width: 63px;
   }
 
 }

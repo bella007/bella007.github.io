@@ -1,0 +1,33 @@
+
+
+.cubic-outer {
+  width: 91px;
+  height: 125px;
+  /*background: gold;*/
+  margin: 10px;
+  position: absolute;
+  background: url("images/fon.png") no-repeat;
+  background-size: 100% 100%;
+  /*transition: 1s;*/
+}
+.cubic-inner {
+  width: 91px;
+  height: 125px;
+  margin: 10px;
+  position: absolute;
+  background-size: 100%;
+}
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.container {
+  position: relative;
+  background-color: red;
+
+}
+.open{
+  transform: rotateY(180deg);
+  transition: 0.2s;
+}

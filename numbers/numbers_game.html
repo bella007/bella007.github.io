@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="numbers_game.css">
+  <script type="text/javascript" src="numbers_game.js" defer></script>
+  <title>numbers_game</title>
+</head>
+<body>
+  <div class="logo">
+    <div class="logoStart">
+        <p class="logoH">Cool Game</p>
+      <div class="positionButton">
+        <p class="normalP">Write number 1-10</p>
+        <input type="text" class="quantity" id="quantity" value="">
+        <br>
+        <button id="beginButton" class="beginButton">Begin</button>
+        <br>
+        <button id="ResultButton" class="ResultButton">Result</button>
+      </div>
+    </div>
+    <div class="logoWin">
+      <p class="logoH">You Win</p>
+      <div class="positionButton">
+      <button id="returnToLogoStart" class="returnToLogoStart">Back to logo</button>
+        <br>
+      <button id="TryAgain" class="TryAgain">Try again</button>
+      </div>
+    </div>
+    <div class="logoLosy">
+        <p class="logoH">You Lose</p>
+        <div class="positionButton">
+          <button id="returnToLogoStart2" class="returnToLogoStart">Back to logo</button>
+          <br>
+          <button id="TryAgain2" class="TryAgain">Try again</button>
+        </div>
+    </div>
+    <div class="result">
+      <p class="logoH">Result</p>
+      <div class="positionButton">
+        <button id="returnToLogoStart3" class="returnToLogoStart">Back to logo</button>
+      </div>
+    </div>
+  </div>
+  <div id="box">
+  </div>
+</body>
+</html>
