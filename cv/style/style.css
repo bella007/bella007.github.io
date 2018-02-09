@@ -459,10 +459,8 @@ main {
 
   .skills-right img {
     padding-left: 0;
-    width: 3px;
+    width: 63px;
     visibility: hidden;
   }
-  .skills-left:after {
-    clear: both;
-  }
+
 }
