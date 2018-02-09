@@ -462,7 +462,7 @@ main {
     width: 3px;
     visibility: hidden;
   }
-  .skills-right:after {
+  .skills-left:after {
     clear: both;
   }
 }
