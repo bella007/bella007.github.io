@@ -458,6 +458,8 @@ main {
   }
 
   .skills-right img {
+    padding-left: 0;
+    width: 3px;
     visibility: hidden;
   }
 
