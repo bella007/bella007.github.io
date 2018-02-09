@@ -112,7 +112,7 @@ main {
   background: url("../images/romb2.jpg");
   background-size: cover;
   max-width: 100%;
-  height: 60rem;
+  height: auto;
   padding: 3rem 3rem;
 }
 
@@ -308,12 +308,50 @@ main {
 }
 
 .skills-right img {
-  padding-left: 110px;
-  width: 100px;
-  height: auto;
-
+  /*padding-left: 110px;*/
+  /*width: 100px;*/
+  /*height: 100px;*/
+  padding-bottom: 10px;
+  width:auto;
 }
 
+.html {
+  padding-left: 153px;
+  width: auto;
+  height: 95px;
+}
+.css {
+  padding-left: 110px;
+  width: 100px;
+  height: 100px;}
+.js {
+  padding-left: 110px;
+  width: auto;
+  height: 84px;}
+.node {
+  padding-left: 110px;
+  width: 100px;
+  height: 100px;}
+.react {
+  padding-left: 61px;
+  width: 100px;
+  height: 100px}
+.redux {
+  padding-left: 101px;
+  width: 100px;
+  height: 91px;}
+.boots {
+  padding-left: 164px;
+  width: 100px;
+  height: 77px;}
+.github{
+  padding-left: 118px;
+  width: 100px;
+  height: 100px;}
+.mater {
+  padding-left: 98px;
+  width: 100px;
+  height: 93px;}
 /* Connecting fonts */
 @font-face {
   font-family: 'Champignon Script';
@@ -339,7 +377,7 @@ main {
   font-weight: 300;
 }
 
-@media all and (min-width: 319px) and (max-width: 800px) {
+  @media all and (min-width: 319px) and (max-width: 800px) {
   body {
     min-width: 423px;
     max-width: 800px;
@@ -349,7 +387,6 @@ main {
   .main-upper {
     background: url("../images/city.jpg") no-repeat center center;
   }
-
   .main-about {
     height: 70rem;
   }
@@ -382,9 +419,6 @@ main {
   }
 
   /*About me */
-  .about-title {
-    color: #fd1a13;
-  }
 
   .about-me {
     display: block;
@@ -424,8 +458,7 @@ main {
   }
 
   .skills-right img {
-    padding-left: 0;
-    width: 63px;
+    visibility: hidden;
   }
 
 }

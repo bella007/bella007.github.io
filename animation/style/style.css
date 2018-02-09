@@ -1,0 +1,178 @@
+body{
+    background: url("../img/kosmos-zvezdy.jpg");
+}
+
+.sun {
+    animation: planet_circle 2s linear infinite;
+    width: 100px;
+    height: 100px;
+}
+
+.sundiv {
+    position: relative;
+    left: 746px;
+    top: 346px;
+}
+.planets {
+    position: absolute;
+}
+.merk{
+    width: 20px;
+    height: 20px;
+    top: 40px;
+    left: 40px;
+    animation: merkurii 3s linear infinite;
+}
+.merkurii {
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation: planet_circle 2s linear infinite;
+}
+
+.vine {
+    width: 30px;
+    height: 30px;
+    top: 36px;
+    left: 36px;
+    animation: vinee 4s linear infinite;
+}
+
+.vinera{
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    animation: planet_circle 3s linear infinite;
+}
+.zemla {
+    width: 35px;
+    height: 35px;
+    top: 36px;
+    left: 36px;
+    animation: earth 3s linear infinite;
+}
+.earth {
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    animation: planet_circle 3s linear infinite;
+}
+.luna {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    animation: planet_circle 6s linear infinite;
+    width:10px;
+    height: 10px;
+}
+.luna2 {
+    animation: luna 1s linear infinite;
+}
+.mar {
+    width: 32px;
+    height: 32px;
+    top: 35px;
+    left: 35px;
+    animation: mars 8s linear infinite;}
+
+.mars {
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    animation: planet_circle 3s linear infinite;
+}
+
+.jupit {
+    width: 43px;
+    height: 43px;
+    top: 31px;
+    left: 31px;
+    animation: jupiter 4s linear infinite;}
+
+.jupiter{
+    background-size: cover;
+    width: 43px;
+    height: 43px;
+    animation: planet_circle 5s linear infinite;
+}
+
+
+.sat {
+    width: 35px;
+    height: 35px;
+    top: 36px;
+    left: 36px;
+    animation: saturn 9s linear infinite;}
+
+.saturn {
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    animation: planet_circle 9s linear infinite;
+}
+
+.ur {
+    width: 33px;
+    height: 33px;
+    top: 36px;
+    left: 36px;
+    animation: uranus 5s linear infinite;}
+
+.uranus {
+    background-size: cover;
+    width: 33px;
+    height: 33px;
+    animation: planet_circle 4s linear infinite;
+}
+
+.nept {
+    width: 29px;
+    height: 29px;
+    top: 36px;
+    left: 36px;
+    animation: neptune 2s linear infinite;}
+
+.neptune{
+    background-size: cover;
+    width: 29px;
+    height: 29px;
+    animation: planet_circle 2s linear infinite;
+}
+
+
+
+
+@keyframes planet_circle {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg) ; }}
+@keyframes luna {
+    from { transform: rotate(0deg) translateX(25px); }
+    to { transform: rotate(360deg) translateX(25px); }}
+@keyframes merkurii {
+  from { transform: rotate(0deg) translateX(80px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(80px) rotate(-360deg); }}
+@keyframes vinee {
+    from { transform: rotate(0deg) translateX(120px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(120px) rotate(-360deg); }}
+@keyframes earth {
+    from { transform: rotate(0deg) translateX(160px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(160px) rotate(-360deg); }}
+@keyframes mars {
+    from { transform: rotate(0deg) translateX(210px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(210px) rotate(-360deg); }}
+@keyframes jupiter {
+    from { transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(250px) rotate(-360deg); }}
+@keyframes saturn {
+    from { transform: rotate(0deg) translateX(290px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(290px) rotate(-360deg); }}
+@keyframes uranus {
+    from { transform: rotate(0deg) translateX(330px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(330px) rotate(-360deg); }}
+@keyframes neptune {
+    from { transform: rotate(0deg) translateX(370px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(370px) rotate(-360deg); }}
+
+
+
+
