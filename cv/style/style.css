@@ -289,6 +289,10 @@ main {
   padding: 0;
 }
 
+.skills-text span{
+  font-weight: bolder;
+}
+
 .my-skills {
   padding-top: 50px;
   padding-bottom: 100px;
